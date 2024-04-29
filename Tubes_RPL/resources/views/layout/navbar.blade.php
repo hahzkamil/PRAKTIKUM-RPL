@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link to your CSS file -->
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-
-    <title>Your Laravel App</title>
-</head>
-<body>
-
 <nav class="navbar nav-underline navbar-expand-lg navbar-black" style="background-color: #6AB4DD;">
     <a class="navbar-brand" href="#">
     </a>
@@ -38,10 +25,10 @@
     </div>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a href="#" class="button button-white">Join Us</a>
+            <button type="button" class="btn btn-light mx-10">Join Us</button>
         </li>
         <li class="nav-item">
-            <a href="#" class="button button-blue">Login</a>
+            <button type="button" class="btn btn-primary mx-2">Login</button>
         </li>
     </ul>
 </nav>
