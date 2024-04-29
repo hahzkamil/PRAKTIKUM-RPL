@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('skor');
             $table->string('deskripsi_review');
-            $table->foreignId('id_consumer')->constrained('pembeli')->cascadeOnDelete();
+            $table->foreignId('id_consumer')->constrained('user')->cascadeOnDelete();
             $table->foreignId('id_item')->constrained('detail_barang')->cascadeOnDelete();
             $table->timestamps();
         });

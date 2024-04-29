@@ -11,14 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('pembeli', function (Blueprint $table) {
-            $table->id();
+        Schema::create('User', function (Blueprint $table) {
+            $table->id()->autoIncrement();
             $table->string('nama_consumer');
             $table->string('alamat_consumer');
-            $table->string('kelamin');
             $table->string('email_consumer')->unique();
             $table->string('nohp_consumer');
-            $table->date('tanggal_lahir_consumer');
+            $table->string('profpic');
+            $table->enum('role',['nelayan','pembeli'])->nullable();
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('pembeli');
+        Schema::dropIfExists('User');
     }
 };

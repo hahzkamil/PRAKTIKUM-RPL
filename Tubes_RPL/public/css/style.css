@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button.button-white {
+    background-color: #ffffff;
+    color: #6AB4DD; /* Change this color to the blue font color you want */
+}
+
+.button.button-blue {
+    background-color: #6AB4DD;
+    color: #ffffff; /* Change this color to the white font color you want */
+}
+
+.button:hover {
+    background-color: #5a96c5; /* Change this color to the hover effect you want */
+}

@@ -1,4 +1,16 @@
-<!-- Nav -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+
+    <title>Your Laravel App</title>
+</head>
+<body>
+
 <nav class="navbar nav-underline navbar-expand-lg navbar-black" style="background-color: #6AB4DD;">
     <a class="navbar-brand" href="#">
     </a>
@@ -8,9 +20,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-            <ul class="navbar-nav text-center" >
+            <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                    <a class="nav-link"  href="#"><strong>Catalog</strong></a>
+                    <a class="nav-link" href="#"><strong>Catalog</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><strong>Daftar Mitra</strong></a>
@@ -26,9 +38,12 @@
     </div>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="btn-sm" aria-current="page" href="Sign in">Log Out</a>
+            <a href="#" class="button button-white">Join Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="button button-blue">Login</a>
         </li>
     </ul>
 </nav>
-
-<!-- Nav End -->
+</body>
+</html>

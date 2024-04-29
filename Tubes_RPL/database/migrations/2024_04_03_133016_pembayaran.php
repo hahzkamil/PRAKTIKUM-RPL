@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer('jumlah_pembayaran');
             $table->string('metode');
             $table->string('status_pembayaran');
-            $table->foreignId('id_consumer')->constrained('pembeli')->cascadeOnDelete();
+            $table->foreignId('id_consumer')->constrained('user')->cascadeOnDelete();
             $table->timestamps();
         });
     }

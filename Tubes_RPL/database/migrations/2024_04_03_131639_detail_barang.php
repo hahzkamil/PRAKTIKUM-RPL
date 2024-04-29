@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('jenis_ikan');
             $table->string('deskripsi_ikan');
             $table->integer('harga');
-            $table->foreignId('id_user')->constrained('mitra')->cascadeOnDelete();
+            $table->foreignId('id_user')->constrained('user')->cascadeOnDelete();
         });
     }
 
