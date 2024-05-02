@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    height: 100%;
+  }
+  
+  .login-container {
+    display: flex;
+  }
+  
+  .image-section img {
+    width: 50vw;
+    height: auto;
+  }
+  
+  .form-section {
+    padding: 40px;
+  }
+  
+  form {
+     display: flex;
+     flex-direction: column;
+  }
+  
+  input, button {
+     margin-bottom: 20px; 
+  }
+  
