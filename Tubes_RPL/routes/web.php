@@ -25,3 +25,6 @@ Route::get('signup', function () {
 Route::get('/sellerlist', function () {
     return view('sellerList.index');
 });
+Route::get('/profile', function () {
+    return view('profile.profile');
+});
