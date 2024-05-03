@@ -28,3 +28,6 @@ Route::get('sellerlist', function () {
 Route::get('profile', function () {
     return view('profile.profile');
 });
+Route::get('editprofile', function () {
+    return view('profile.editprofile');
+});
