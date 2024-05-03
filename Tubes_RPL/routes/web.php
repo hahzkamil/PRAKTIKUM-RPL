@@ -28,3 +28,5 @@ Route::get('sellerlist', function () {
 Route::get('profile', function () {
     return view('profile.profile');
 });
+
+Route::resource('sellerList', SellerController::class);
