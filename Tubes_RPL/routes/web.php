@@ -13,9 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('login', function () {
+Route::get('/login', function () {
     return view('landing.login');
 });
+
 Route::get('signup', function () {
     return view('landing.signup');
 });
+
+Route::get('information', function () {
+    return view('detail.information');
+});
+
