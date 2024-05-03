@@ -22,9 +22,9 @@ Route::get('login', function () {
 Route::get('signup', function () {
     return view('landing.signup');
 });
-Route::get('/sellerlist', function () {
+Route::get('sellerlist', function () {
     return view('sellerList.index');
 });
-Route::get('/profile', function () {
+Route::get('profile', function () {
     return view('profile.profile');
 });
