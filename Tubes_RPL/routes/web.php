@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('login', function () {
     return view('landing.login');
 });
-Route::get('signup', function () {
+Route::get('/signup', function () {
     return view('landing.signup');
 });
 Route::get('sellerlist', function () {
