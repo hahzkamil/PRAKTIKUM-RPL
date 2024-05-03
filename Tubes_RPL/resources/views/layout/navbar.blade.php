@@ -9,10 +9,13 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item">
+                    <a class="nav-link" href="/"><strong>Home</strong></a>
+                </li>    
+                <li class="nav-item">
                     <a class="nav-link" href="#"><strong>Catalog</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Daftar Mitra</strong></a>
+                    <a class="nav-link" href="sellerlist"><strong>Daftar Mitra</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><strong>Perkiraan cuaca</strong></a>
@@ -25,12 +28,10 @@
     </div>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <button type="button" class="btn btn-light mx-10">Join Us</button>
+            <a href="signup" class="btn btn-light mx-10"> Join Us</a>
         </li>
         <li class="nav-item">
-            <button type="button" class="btn btn-primary mx-2">Login</button>
+            <a href="login" class="btn btn-primary mx-2">Login</a>
         </li>
     </ul>
 </nav>
-</body>
-</html>
