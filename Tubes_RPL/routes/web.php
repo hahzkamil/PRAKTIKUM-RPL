@@ -19,7 +19,7 @@ Route::get('/', function () {
 Route::get('login', function () {
     return view('landing.login');
 });
-Route::get('signup', function () {
+Route::get('/signup', function () {
     return view('landing.signup');
 });
 Route::get('sellerlist', function () {
@@ -28,6 +28,11 @@ Route::get('sellerlist', function () {
 Route::get('profile', function () {
     return view('profile.profile');
 });
+<<<<<<< HEAD
 Route::get('editprofile', function () {
     return view('profile.editprofile');
 });
+=======
+
+Route::resource('sellerList', SellerController::class);
+>>>>>>> d1b7433499dade7831d76bed3df30422322a90f3
