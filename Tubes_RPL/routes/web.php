@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function () {
-    return view('welcome');
+    return view('map.map');
 });
 Route::get('login', function () {
     return view('landing.login');
@@ -22,9 +22,12 @@ Route::get('login', function () {
 Route::get('signup', function () {
     return view('landing.signup');
 });
-Route::get('/sellerlist', function () {
+Route::get('sellerlist', function () {
     return view('sellerList.index');
 });
-Route::get('/profile', function () {
+Route::get('profile', function () {
     return view('profile.profile');
+});
+Route::get('editprofile', function () {
+    return view('profile.editprofile');
 });
