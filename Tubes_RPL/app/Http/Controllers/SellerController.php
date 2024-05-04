@@ -4,15 +4,16 @@ namespace App\Http\Controllers;
 
 use App\Models\Seller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\View;
 
 class SellerController extends Controller
 {
     public function index()
     {
         $seller = Seller::all();
-
-        return view("sellerList.index"(["seller"->compact($seller)]));
-    }
+    
+        return View::make('sellerList.index')->with('seller', $seller);
+    }  
 
     /**
      * Show the form for creating a new resource.
