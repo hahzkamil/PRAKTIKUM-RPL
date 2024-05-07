@@ -34,3 +34,4 @@ Route::get('editprofile', function () {
 });
 
 Route::resource('sellerList', SellerController::class);
+
