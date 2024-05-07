@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SellerController;
 
 
 /*
@@ -19,7 +20,7 @@ Route::get('/', function () {
 Route::get('login', function () {
     return view('landing.login');
 });
-Route::get('signup', function () {
+Route::get('/signup', function () {
     return view('landing.signup');
 });
 Route::get('sellerlist', function () {
@@ -31,3 +32,6 @@ Route::get('profile', function () {
 Route::get('editprofile', function () {
     return view('profile.editprofile');
 });
+
+Route::resource('sellerList', SellerController::class);
+

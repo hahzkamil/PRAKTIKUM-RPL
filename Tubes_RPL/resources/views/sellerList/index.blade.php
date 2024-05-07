@@ -12,6 +12,11 @@
                     <p class="card-text">Bojongsoang, Dayeuhkolot, Jawa Barat</p>
                     <a href="" class="btn btn-primary">View Details</a>
                 </div>
+                    @foreach ($seller as $item)
+                        <h5>{{$item['nama_consumer']}}</h5>
+                        <p>{{$item['alamat_consumer']}}</p>
+                        <a href="" class="btn btn-primary">View Details</a>
+                    @endforeach
             </div>
         </div>
 
