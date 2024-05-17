@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SellerControllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SellerController;
 
@@ -23,9 +24,7 @@ Route::get('login', function () {
 Route::get('/signup', function () {
     return view('landing.signup');
 });
-Route::get('sellerlist', function () {
-    return view('sellerList.index');
-});
+
 Route::get('profile', function () {
     return view('profile.profile');
 });
@@ -33,5 +32,7 @@ Route::get('editprofile', function () {
     return view('profile.editprofile');
 });
 
-Route::resource('sellerList', SellerController::class);
 
+//seller
+Route::get('/sellerlist', [SellerControllers::class, 'index']);
+Route::get('/sellerlist', [SellerControllers::class, 'showSeller']);
