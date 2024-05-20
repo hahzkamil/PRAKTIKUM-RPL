@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SellerController;
+use App\Http\Controllers\WeatherController;
 
 
 /*
@@ -35,3 +36,5 @@ Route::get('editprofile', function () {
 
 Route::resource('sellerList', SellerController::class);
 
+Route::get('/', [WeatherController::class, 'index']);
+Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeather');
