@@ -42,7 +42,7 @@
         <h1>IKAN</h1>
         <h2>Masuk Akun Anda</h2>
         
-        <form action="/login" method="POST">
+        <form action="/login" method="GET">
             <input type="text" placeholder="Nama" name="nama">
             <input type="email" placeholder="Email" name="email">
             <input type="password" placeholder="Password" name="password">
