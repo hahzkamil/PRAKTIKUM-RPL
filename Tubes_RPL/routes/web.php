@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\SellerControllers;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SellerController;
+use App\Http\Controllers\WeatherController;
 
 
 /*
@@ -22,10 +25,9 @@ Route::get('/', function () {
     return view('map.map');
 });
 Route::get('login', function () {
-
-
     return view('landing.login');
 });
+
 
 Route::get('signup', function () {
     return view('landing.signup');
@@ -48,3 +50,23 @@ Route::get('profile', function () {
 Route::get('contact', function () {
     return view('contact.contact');
 });
+
+
+
+Route::get('profile', function () {
+    return view('profile.profile');
+});
+Route::get('editprofile', function () {
+    return view('profile.editprofile');
+});
+
+
+//weather
+Route::get('/', [WeatherController::class, 'index']);
+Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeather');
+
+//seller
+Route::get('/sellerlist', [SellerControllers::class, 'index']);
+Route::get('/sellerlist', [SellerControllers::class, 'showSeller']);
+
+
