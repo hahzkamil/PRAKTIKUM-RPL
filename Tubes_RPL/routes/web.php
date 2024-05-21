@@ -3,6 +3,7 @@
 use App\Http\Controllers\SellerControllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SellerController;
+use App\Http\Controllers\WeatherController;
 
 
 /*
@@ -33,6 +34,11 @@ Route::get('editprofile', function () {
 });
 
 
+//weather
+Route::get('/', [WeatherController::class, 'index']);
+Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeather');
+
 //seller
 Route::get('/sellerlist', [SellerControllers::class, 'index']);
 Route::get('/sellerlist', [SellerControllers::class, 'showSeller']);
+
