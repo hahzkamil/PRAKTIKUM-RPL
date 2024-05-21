@@ -12,6 +12,7 @@
                         <p>{{$item['alamat_consumer']}}</p>
                         <a href="" class="btn btn-primary">View Details</a>
                     @endforeach
+
             </div>
         </div>
 

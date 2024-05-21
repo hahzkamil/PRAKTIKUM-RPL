@@ -16,15 +16,42 @@ use App\Http\Controllers\WeatherController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
+
+
+
 Route::get('/', function () {
     return view('map.map');
 });
 Route::get('login', function () {
     return view('landing.login');
 });
-Route::get('/signup', function () {
+
+
+Route::get('signup', function () {
     return view('landing.signup');
 });
+
+
+Route::get('information', function () {
+    return view('detail.information');
+});
+
+
+Route::get('sellerlist', function () {
+    return view('sellerList.index');
+});
+Route::get('profile', function () {
+    return view('profile.profile');
+});
+
+
+Route::get('contact', function () {
+    return view('contact.contact');
+});
+
+
 
 Route::get('profile', function () {
     return view('profile.profile');
@@ -41,4 +68,5 @@ Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeat
 //seller
 Route::get('/sellerlist', [SellerControllers::class, 'index']);
 Route::get('/sellerlist', [SellerControllers::class, 'showSeller']);
+
 
