@@ -28,5 +28,11 @@ Route::get('sellerlist', function () {
 Route::get('profile', function () {
     return view('profile.profile');
 });
+Route::get('catalogproduk', function () {
+    return view('catalog.catalogproduk');
+});
+Route::get('detailcatalog', function () {
+    return view('catalog.detailcatalog');
+});
 
 Route::resource('sellerList', SellerController::class);
