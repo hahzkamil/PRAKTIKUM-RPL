@@ -22,7 +22,7 @@ use App\Http\Controllers\WeatherController;
 
 
 Route::get('/', function () {
-    return view('map.map');
+    return view('map.dashboard');
 });
 Route::get('login', function () {
     return view('landing.login');
@@ -68,7 +68,7 @@ Route::get('editprofile', function () {
 
 
 //weather
-Route::get('/', [WeatherController::class, 'index']);
+
 Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeather');
 
 //seller

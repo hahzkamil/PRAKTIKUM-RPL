@@ -12,7 +12,7 @@
 <body>
     @include('layout.navbar')
 
-
     @yield('content')
+    @yield('map_content')
 </body>
 </html>

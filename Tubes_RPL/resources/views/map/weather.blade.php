@@ -1,5 +1,3 @@
-@extends('layout.main')
-
 @section('content')
 <div class="container mt-5">
     <h2>Weather Forecast</h2>

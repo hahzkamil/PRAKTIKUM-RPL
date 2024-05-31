@@ -1,6 +1,4 @@
-@extends ('layout.main')
-
-@section ('content')
+@section ('map_content')
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 

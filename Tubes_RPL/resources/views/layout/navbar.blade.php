@@ -12,7 +12,7 @@
                     <a class="nav-link" href="/"><strong>Home</strong></a>
                 </li>    
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Catalog</strong></a>
+                    <a class="nav-link" href="catalogproduk"><strong>Catalog</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="sellerlist"><strong>Daftar Mitra</strong></a>
