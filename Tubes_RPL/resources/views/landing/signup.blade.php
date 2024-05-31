@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IKAN - Masuk Akun Anda</title>
+    <title>FishOn! - Masuk Akun Anda</title>
     <style>
         div {
             font-family: Arial, sans-serif;

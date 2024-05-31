@@ -26,12 +26,17 @@
             </ul>
         </div>
     </div>
+
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a href="signup" class="btn btn-light mx-10"> Join Us</a>
+            <a class="nav-link" href="#">
+                <img src="<?php echo e(URL('img/cart_icon.png')); ?>" style="width: 30px; height: 30px; margin-right: 10px;"></a>
         </li>
         <li class="nav-item">
-            <a href="login" class="btn btn-primary mx-2">Login</a>
+            <a href="signup" class="btn btn-light mx-3"> Join Us</a>
+        </li>
+        <li class="nav-item">
+            <a href="login" class="btn btn-primary mx-3">Login</a>
         </li>
     </ul>
 </nav>
