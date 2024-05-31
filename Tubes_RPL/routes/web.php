@@ -4,6 +4,7 @@ use App\Http\Controllers\SellerControllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SellerController;
 use App\Http\Controllers\WeatherController;
+use App\Http\Controllers\AuthController;
 
 
 /*
@@ -24,9 +25,13 @@ use App\Http\Controllers\WeatherController;
 Route::get('/', function () {
     return view('map.map');
 });
-Route::get('login', function () {
-    return view('landing.login');
-});
+#Route::get('login', function () {
+    #return view('landing.login');
+#});
+Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('login', [AuthController::class, 'login']);
+Route::post('logout', [AuthController::class, 'logout'])->name('logout');
+
 
 
 Route::get('signup', function () {
