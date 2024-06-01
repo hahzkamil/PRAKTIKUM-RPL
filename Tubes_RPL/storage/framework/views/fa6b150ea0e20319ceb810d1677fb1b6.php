@@ -12,8 +12,8 @@
 <body>
     <?php echo $__env->make('layout.navbar', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-
     <?php echo $__env->yieldContent('content'); ?>
+    <?php echo $__env->yieldContent('map_content'); ?>
 </body>
 </html>
 <?php /**PATH D:\TUBES RPL\Tubes_RPL\resources\views/layout/main.blade.php ENDPATH**/ ?>
