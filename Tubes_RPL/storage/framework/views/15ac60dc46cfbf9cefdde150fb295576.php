@@ -1,11 +1,11 @@
-<?php $__env->startSection('content'); ?>
+<?php $__env->startSection('map_content'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add Google Map in Laravel - shouts.dev</title>
+    <title>Dashboard</title>
 
     <style type="text/css">
         #map {
@@ -43,5 +43,4 @@
 
 </body>
 </html>
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('layout.main', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH D:\TUBES RPL\Tubes_RPL\resources\views/map/map.blade.php ENDPATH**/ ?>
+<?php $__env->stopSection(); ?><?php /**PATH D:\TUBES RPL\Tubes_RPL\resources\views/map/map.blade.php ENDPATH**/ ?>
