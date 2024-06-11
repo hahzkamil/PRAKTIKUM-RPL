@@ -84,6 +84,6 @@ Route::get('/cart', function () {
     return view('catalog.cart');
 });
 
-Route::get('/pembayaran', function () {
+Route::get('/checkout', function () {
     return view('catalog.pembayaran');
 });

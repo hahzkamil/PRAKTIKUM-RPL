@@ -1,6 +1,6 @@
 @section('content')
 <div class="container mt-5">
-    <h2>Weather Forecast</h2>
+    <h2>Perkiraan Cuaca</h2>
 
     {{-- Menampilkan pesan error jika ada --}}
     @if ($errors->any())

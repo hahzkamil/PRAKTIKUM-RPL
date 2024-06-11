@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dashboard</title>
+    <title>FishOn!</title>
 
     <style type="text/css">
         #map {
@@ -16,7 +16,7 @@
 
 <body>
 <div class="container mt-5">
-    <h2>Geolocation</h2>
+    <h2>Map</h2>
     <div id="map"></div>
 </div>
 

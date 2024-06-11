@@ -27,13 +27,22 @@
     <ul class="nav justify-content-end">
         <li class="nav-item">
             <a class="nav-link" href="cart">
-                <img src="{{ URL('img/cart_icon.png') }}" style="width: 30px; height: 30px; margin-right: 10px;"></a>
+                <img src="{{ URL('img/cart_icon.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+            </a>
         </li>
-        <li class="nav-item">
-            <a href="signup" class="btn btn-light mx-3"> Join Us</a>
-        </li>
-        <li class="nav-item">
-            <a href="login" class="btn btn-primary mx-3">Login</a>
-        </li>
+        @guest
+            <li class="nav-item">
+                <a href="signup" class="btn btn-light mx-3"> Join Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="login" class="btn btn-primary mx-3">Login</a>
+            </li>
+        @else
+            <li class="nav-item">
+                <a href="profile">
+                <img src='https://cdn-icons-png.flaticon.com/512/6522/6522516.png' style="width: 30px; height: 30px; margin-right: 10px;">
+                </a>
+            </li>
+        @endguest
     </ul>
 </nav>

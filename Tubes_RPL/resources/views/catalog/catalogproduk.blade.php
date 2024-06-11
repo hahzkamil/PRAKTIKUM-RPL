@@ -89,7 +89,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 1 KG</p>
             <p class="product-price">Rp95.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 2 -->
@@ -97,7 +97,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 2 KG</p>
             <p class="product-price">Rp180.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 3 -->
@@ -105,7 +105,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 3 KG</p>
             <p class="product-price">Rp270.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 4 -->
@@ -113,7 +113,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 4 KG</p>
             <p class="product-price">Rp360.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Baris 2 -->
@@ -122,7 +122,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 1 KG</p>
             <p class="product-price">Rp95.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 2 -->
@@ -130,7 +130,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 2 KG</p>
             <p class="product-price">Rp180.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 3 -->
@@ -138,7 +138,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 3 KG</p>
             <p class="product-price">Rp270.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 4 -->
@@ -146,7 +146,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 4 KG</p>
             <p class="product-price">Rp360.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Baris 3 -->
@@ -155,7 +155,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 1 KG</p>
             <p class="product-price">Rp95.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 2 -->
@@ -163,7 +163,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 2 KG</p>
             <p class="product-price">Rp180.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 3 -->
@@ -171,7 +171,7 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 3 KG</p>
             <p class="product-price">Rp270.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 
         <!-- Produk 4 -->
@@ -179,6 +179,6 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
             <p class="product-name">Ikan Tuna 4 KG</p>
             <p class="product-price">Rp360.000</p>
-            <button class="add-to-cart">Tambah ke Keranjang</button>
+            <button href="cart" class="add-to-cart">Tambah ke Keranjang</button>
         </div>
 @endsection

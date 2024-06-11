@@ -14,26 +14,22 @@
         <div class="col-md-8">
             <ul class="list-group">
                 <!-- Item 1 -->
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <div>
-                    <img src="https://dkpp.bulelengkab.go.id/public/uploads/konten/mengenal-5-jenis-ikan-tuna-sirip-biru-30.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
-                    </div>
+                <li class="list-group-item d-flex align-items-center">
+                    <img src="https://dkpp.bulelengkab.go.id/public/uploads/konten/mengenal-5-jenis-ikan-tuna-sirip-biru-30.jpg" alt="Ikan Tuna 2 KG" width="150" class="mr-3">
                     <div>
                         <h5 class="my-0">Ikan Tuna 1Kg</h5>
                         <small class="text-muted">Ikan Tuna khas Bekasi</small>
                     </div>
-                    <span class="badge badge-primary badge-pill">Rp100.000</span>
+                    <span class="badge badge-primary badge-pill ml-auto">Rp100.000</span>
                 </li>
                 <!-- Item 2 -->
-                <li class="list-group-item d-flex justify-content-between align-items-center">
+                <li class="list-group-item d-flex align-items-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Gurame 2 KG" width="150" class="mr-3">
                     <div>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Osphronemus_goramy_2008_G1.jpg/1200px-Osphronemus_goramy_2008_G1.jpg" alt="Ikan Tuna 2 KG"width="150" class="ml-lg-5 order-1 order-lg-2">
-                    </div>
-                    <div>
-                        <h5 class="my-0">Produk 2</h5>
+                        <h5 class="my-0">Ikan Gurame 2Kg</h5>
                         <small class="text-muted">Deskripsi singkat</small>
                     </div>
-                    <span class="badge badge-primary badge-pill">Rp200.000</span>
+                    <span class="badge badge-primary badge-pill ml-auto">Rp200.000</span>
                 </li>
                 <!-- More items... -->
             </ul>
@@ -56,7 +52,7 @@
                             <strong>Rp320.000</strong>
                         </li>
                     </ul>
-                    <a href="#" class="btn btn-primary btn-lg btn-block">Checkout</a>
+                    <a href="checkout" class="btn btn-primary btn-lg btn-block">Checkout</a>
                 </div>
             </div>
         </div>
