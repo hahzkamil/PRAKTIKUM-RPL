@@ -25,9 +25,9 @@ use App\Http\Controllers\AuthController;
 Route::get('/', function () {
     return view('map.dashboard');
 });
-#Route::get('login', function () {
-    #return view('landing.login');
-#});
+Route::get('login', function () {
+    return view('landing.login');
+});
 Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout'])->name('logout');
@@ -80,4 +80,10 @@ Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeat
 Route::get('/sellerlist', [SellerControllers::class, 'index']);
 Route::get('/sellerlist', [SellerControllers::class, 'showSeller']);
 
+Route::get('/cart', function () {
+    return view('catalog.cart');
+});
 
+Route::get('/pembayaran', function () {
+    return view('catalog.pembayaran');
+});

@@ -18,9 +18,6 @@
                     <a class="nav-link" href="sellerlist"><strong>Daftar Mitra</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Perkiraan cuaca</strong></a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#"><strong>About Us</strong></a>
                 </li>
             </ul>
@@ -29,7 +26,7 @@
 
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href="cart">
                 <img src="{{ URL('img/cart_icon.png') }}" style="width: 30px; height: 30px; margin-right: 10px;"></a>
         </li>
         <li class="nav-item">
