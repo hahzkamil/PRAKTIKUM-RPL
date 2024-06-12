@@ -10,7 +10,7 @@
                     @foreach ($seller as $item)
                         <h5>{{$item['nama_consumer']}}</h5>
                         <p>{{$item['alamat_consumer']}}</p>
-                        <a href="" class="btn btn-primary">View Details</a>
+                        <a href="detailmitra" class="btn btn-primary">View Details</a>
                     @endforeach
 
             </div>
@@ -21,7 +21,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Seller B</h5>
                     <p class="card-text">Baleendah, Dayeuhkolot, Jawa Barat</p>
-                    <a href="" class="btn btn-primary">View Details</a>
+                    <a href="detailmitra" class="btn btn-primary">View Details</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Seller C</h5>
                     <p class="card-text">Ciganitri, Dayeuhkolot, Jawa Barat</p>
-                    <a href="" class="btn btn-primary">View Details</a>
+                    <a href="detailmitra" class="btn btn-primary">View Details</a>
                 </div>
             </div>
         </div>

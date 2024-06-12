@@ -36,6 +36,13 @@
             color: black;
         }
     </style>
+    <script>
+        function toggleButton() {
+            var checkbox = document.getElementById('agreeCheckbox');
+            var submitButton = document.getElementById('submitButton');
+            submitButton.disabled = !checkbox.checked;
+        }
+    </script>
 </head>
 <body>
     <div>
@@ -43,10 +50,12 @@
         <h2>Masuk Akun Anda</h2>
         
         <form action="/login" method="GET">
-            <input type="text" placeholder="Nama" name="nama">
-            <input type="email" placeholder="Email" name="email">
-            <input type="password" placeholder="Password" name="password">
-            <button type="submit">Selanjutnya</button>
+            <input type="text" placeholder="Nama" name="nama" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="checkbox" id="agreeCheckbox" onclick="toggleButton()"> Saya setuju dengan <a href="/kebijakanprivasi">Syarat dan Ketentuan</a>
+            <br><br>
+            <button type="submit" id="submitButton" disabled>Selanjutnya</button>
         </form>
 
         <p>- atau -</p>
