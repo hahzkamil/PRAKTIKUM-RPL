@@ -1,5 +1,7 @@
 <nav class="navbar nav-underline navbar-expand-lg navbar-black" style="background-color: #6AB4DD;">
-    <a class="navbar-brand" href="#">
+<a class="navbar-brand" href="#" style="font-weight: bold; font-size: 23px;">
+        <img src="{{ URL('img/fishon.jpeg') }}" alt="FishOn Logo" style="height: 50px; margin-right: 10px; margin-left: 20px;">
+        FishOn!
     </a>
     <div class="container justify-content-center">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -9,28 +11,38 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
             <ul class="navbar-nav text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Catalog</strong></a>
+                    <a class="nav-link" href="/"><strong>Home</strong></a>
+                </li>    
+                <li class="nav-item">
+                    <a class="nav-link" href="catalogproduk"><strong>Catalog</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Daftar Mitra</strong></a>
+                    <a class="nav-link" href="sellerlist"><strong>Daftar Mitra</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>Perkiraan cuaca</strong></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>About Us</strong></a>
+                    <a class="nav-link" href="aboutus"><strong>About Us</strong></a>
                 </li>
             </ul>
         </div>
     </div>
+
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <button type="button" class="btn btn-light mx-10">Join Us</button>
+            <a class="nav-link" href="cart">
+                <img src="{{ URL('img/cart_icon.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
+            </a>
         </li>
-        <li class="nav-item">
-            <button type="button" class="btn btn-primary mx-2">Login</button>
-        </li>
+        @guest
+            <li class="nav-item">
+                <a href="signup" class="btn btn-light mx-3"> Join Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="login" class="btn btn-primary mx-3">Login</a>
+            </li>
+        @else
+            <li class="nav-item">
+            <a href="profile" class="btn btn-primary mx-3">Profile</a>
+            </li>
+        @endguest
     </ul>
 </nav>
-</body>
-</html>

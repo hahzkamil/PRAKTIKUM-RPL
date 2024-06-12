@@ -10,8 +10,12 @@
     @yield('cssfile')
 </head>
 <body>
-    @include('layout.navbar')
-
+    @if (Auth::check())
+        @include('layout.authnavbar')
+    @else
+        @include('layout.navbar')
+    @endif
     @yield('content')
+    @yield('map_content')
 </body>
 </html>
