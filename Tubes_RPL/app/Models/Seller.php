@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Seller extends Model
 {
     use HasFactory;
-    protected $table = 'user';
+    protected $table = 'users';
     protected $fillable = [
         'nama_consumer',
         'alamat_consumer'

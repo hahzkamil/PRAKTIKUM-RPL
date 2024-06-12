@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('User', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->string('nama_consumer');
-            $table->string('alamat_consumer');
             $table->string('email_consumer')->unique();
+            $table->string('alamat_consumer');
             $table->string('nohp_consumer');
             $table->string('profpic');
             $table->enum('role',['nelayan','pembeli'])->nullable();

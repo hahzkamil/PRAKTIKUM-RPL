@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FishOn! - Masuk Akun Anda</title>
+    <title>FishOn! - Daftar Akun Baru</title>
     <style>
         div {
             font-family: Arial, sans-serif;
@@ -40,17 +40,31 @@
 <body>
     <div>
         <h1>FishOn</h1>
-        <h2>Masuk Akun Anda</h2>
-        
-        <form action="/login" method="GET">
-            <input type="text" placeholder="Nama" name="nama">
-            <input type="email" placeholder="Email" name="email">
+        <h2>Daftar Akun Baru</h2>
+
+        <!-- Menampilkan pesan sukses atau error -->
+        @if (session('success'))
+            <div style="color: green;">
+                {{ session('success') }}
+            </div>
+        @endif
+
+        @if (session('error'))
+            <div style="color: red;">
+                {{ session('error') }}
+            </div>
+        @endif
+
+        <form action="{{ route('register') }}" method="POST">
+            @csrf
+            <input type="text" placeholder="Nama" name="nama_consumer">
+            <input type="email" placeholder="Email" name="email_consumer">
             <input type="password" placeholder="Password" name="password">
-            <button type="submit">Selanjutnya</button>
+            <button type="submit">Daftar</button>
         </form>
 
         <p>- atau -</p>
-        <a href="/login">Sudah Memiliki Akun? Masuk</a>
+        <a href="{{ route('login') }}">Sudah Memiliki Akun? Masuk</a>
     </div>
 </body>
 </html>

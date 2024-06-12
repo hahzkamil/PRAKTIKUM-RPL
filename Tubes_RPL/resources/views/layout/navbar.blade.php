@@ -22,14 +22,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus"><strong>About Us</strong></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="profile"><strong>Profile</strong></a>
-                </li>
             </ul>
         </div>
     </div>
 
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end flex-wrap">
         <li class="nav-item">
             <a class="nav-link" href="cart">
                 <img src="{{ URL('img/cart_icon.png') }}" style="width: 30px; height: 30px; margin-right: 10px;">
@@ -37,14 +34,14 @@
         </li>
         @guest
             <li class="nav-item">
-                <a href="signup" class="btn btn-light mx-3"> Join Us</a>
+                <a href="signup" class="btn btn-light mx-2 my-1">Join Us</a>
             </li>
             <li class="nav-item">
-                <a href="login" class="btn btn-primary mx-3">Login</a>
+                <a href="login" class="btn btn-primary mx-2 my-1">Login</a>
             </li>
         @else
             <li class="nav-item">
-            <a href="profile" class="btn btn-primary mx-3">Profile</a>
+                <a href="profile" class="btn btn-primary mx-2 my-1">Profile</a>
             </li>
         @endguest
     </ul>

@@ -25,18 +25,15 @@ use App\Http\Controllers\AuthController;
 Route::get('/', function () {
     return view('map.dashboard');
 });
-Route::get('login', function () {
-    return view('landing.login');
-});
 Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout'])->name('logout');
 
+// Route untuk menampilkan form signup
+Route::get('/signup', [AuthController::class, 'showRegistrationForm'])->name('signup');
 
-
-Route::get('signup', function () {
-    return view('landing.signup');
-});
+// Route untuk memproses data form signup
+Route::post('/signup', [AuthController::class, 'register'])->name('register');
 
 
 Route::get('information', function () {
@@ -106,3 +103,4 @@ Route::get('/tampilandonasi', function () {
 Route::get('/complaint-success', function () {
     return view('tentang.complaint-success');
 });
+
