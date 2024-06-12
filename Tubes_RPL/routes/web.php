@@ -95,3 +95,6 @@ Route::get('/aboutus', function () {
     return view('tentang.aboutus');
 });
 
+Route::get('/complaint-success', function () {
+    return view('tentang.complaint-success');
+});
