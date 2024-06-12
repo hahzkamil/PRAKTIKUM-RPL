@@ -95,6 +95,7 @@ Route::get('/aboutus', function () {
     return view('tentang.aboutus');
 });
 
+<<<<<<< HEAD
 Route::get('/listdonasi', function () {
     return view('donasi.listdonasi');
 });
@@ -102,3 +103,8 @@ Route::get('/listdonasi', function () {
 Route::get('/tampilandonasi', function () {
     return view('donasi.tampilandonasi');
 });
+=======
+Route::get('/complaint-success', function () {
+    return view('tentang.complaint-success');
+});
+>>>>>>> f8521c2efb389aff7793d85e6fcdb93f12d552a1
