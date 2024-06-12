@@ -18,7 +18,7 @@
                     <a class="nav-link" href="sellerlist"><strong>Daftar Mitra</strong></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><strong>About Us</strong></a>
+                    <a class="nav-link" href="aboutus"><strong>About Us</strong></a>
                 </li>
             </ul>
         </div>

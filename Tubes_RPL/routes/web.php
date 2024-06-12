@@ -79,6 +79,9 @@ Route::post('/weather', [WeatherController::class, 'getWeather'])->name('getWeat
 //seller
 Route::get('/sellerlist', [SellerControllers::class, 'index']);
 Route::get('/sellerlist', [SellerControllers::class, 'showSeller']);
+Route::get('/detailmitra', function () {
+    return view('sellerlist.detailmitra');
+});
 
 Route::get('/cart', function () {
     return view('catalog.cart');
@@ -87,3 +90,8 @@ Route::get('/cart', function () {
 Route::get('/checkout', function () {
     return view('catalog.pembayaran');
 });
+
+Route::get('/aboutus', function () {
+    return view('tentang.aboutus');
+});
+

@@ -7,17 +7,17 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 
 
-class SellerControllers extends Controller
-{
-    public function index()
-    {
-        return view('sellerList.index');
-    }  
+// class SellerControllers extends Controller
+// {
+//     public function index()
+//     {
+//         return view('sellerList.index');
+//     }  
     
-    public function showSeller()
-    {
-        $seller = Seller::all();
+//     public function showSeller()
+//     {
+//         $seller = Seller::all();
     
-        return View::make('sellerList.index')->with('seller', $seller);
-    }  
-}
+//         return View::make('sellerList.index')->with('seller', $seller);
+//     }  
+// }
