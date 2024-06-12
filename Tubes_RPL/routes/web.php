@@ -102,7 +102,10 @@ Route::get('/listdonasi', function () {
 Route::get('/tampilandonasi', function () {
     return view('donasi.tampilandonasi');
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> c63e7ad7aa74293c9944e4814df5a0a1287d4438
 Route::get('/complaint-success', function () {
     return view('tentang.complaint-success');
 });
