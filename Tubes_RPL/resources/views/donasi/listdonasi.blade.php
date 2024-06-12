@@ -47,7 +47,7 @@
           <div class="card-body">
             <h5 class="card-title">Wujudkan Air Bersih</h5>
             <p class="card-text">Riau</p>
-            <a href="#" class="btn btn-primary">SEE THE DETAIL</a>
+            <a href="tampilandonasi" class="btn btn-primary">SEE THE DETAIL</a>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
           <div class="card-body">
             <h5 class="card-title">Aksi Hijau Untuk Pesisir</h5>
             <p class="card-text">Aceh</p>
-            <a href="#" class="btn btn-primary">SEE THE DETAIL</a>
+            <a href="tampilandonasi" class="btn btn-primary">SEE THE DETAIL</a>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@
           <div class="card-body">
             <h5 class="card-title">Pembersihan Pantai</h5>
             <p class="card-text">Bandung</p>
-            <a href="#" class="btn btn-primary">SEE THE DETAIL</a>
+            <a href="tampilandonasi" class="btn btn-primary">SEE THE DETAIL</a>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
           <div class="card-body">
             <h5 class="card-title">Peduli Ekosistem Pantai</h5>
             <p class="card-text">NTT</p>
-            <a href="#" class="btn btn-primary">SEE THE DETAIL</a>
+            <a href="tampilandonasi" class="btn btn-primary">SEE THE DETAIL</a>
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
           <div class="card-body">
             <h5 class="card-title">Jaga Keindahan Pantai</h5>
             <p class="card-text">Yogyakarta</p>
-            <a href="#" class="btn btn-primary">SEE THE DETAIL</a>
+            <a href="tampilandonasi" class="btn btn-primary">SEE THE DETAIL</a>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@
           <div class="card-body">
             <h5 class="card-title">Laut Biru, Laut Sehat</h5>
             <p class="card-text">Makassar</p>
-            <a href="#" class="btn btn-primary">SEE THE DETAIL</a>
+            <a href="tampilandonasi" class="btn btn-primary">SEE THE DETAIL</a>
           </div>
         </div>
       </div>
