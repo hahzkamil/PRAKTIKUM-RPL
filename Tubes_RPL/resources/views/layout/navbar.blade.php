@@ -22,6 +22,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="aboutus"><strong>About Us</strong></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/show-artikel"><strong>News</strong></a>
+                </li>
             </ul>
         </div>
     </div>

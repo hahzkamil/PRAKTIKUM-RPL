@@ -36,6 +36,13 @@
             color: black;
         }
     </style>
+    <script>
+        function toggleButton() {
+            var checkbox = document.getElementById('agreeCheckbox');
+            var submitButton = document.getElementById('submitButton');
+            submitButton.disabled = !checkbox.checked;
+        }
+    </script>
 </head>
 <body>
     <div>

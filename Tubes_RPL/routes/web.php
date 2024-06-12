@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SellerController;
 use App\Http\Controllers\WeatherController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ArtikelControllerAdmin;
+use App\Http\Controllers\Artikelcontroller;
 
 
 /*
@@ -28,6 +30,17 @@ Route::get('/', function () {
 Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout'])->name('logout');
+
+//artikel
+
+Route::get('/show-artikel', [Artikelcontroller::class, 'showArtikel']);
+Route::get('/show-artikel/{id}', [Artikelcontroller::class, 'detailArtikel']);
+
+//artikel
+
+Route::get('/kebijakanprivasi', function () {
+    return view('kebijakanprivasi');
+});
 
 // Route untuk menampilkan form signup
 Route::get('/signup', [AuthController::class, 'showRegistrationForm'])->name('signup');
@@ -58,8 +71,6 @@ Route::get('detailcatalog', function () {
 Route::get('contact', function () {
     return view('contact.contact');
 });
-
-
 
 Route::get('profile', function () {
     return view('profile.profile');
