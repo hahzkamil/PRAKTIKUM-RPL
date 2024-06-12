@@ -17,5 +17,6 @@
     @endif
     @yield('content')
     @yield('map_content')
+    @yield('donasi')
 </body>
 </html>
