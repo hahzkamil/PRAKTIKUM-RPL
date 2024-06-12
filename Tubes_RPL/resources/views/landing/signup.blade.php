@@ -39,7 +39,7 @@
 </head>
 <body>
     <div>
-        <h1>IKAN</h1>
+        <h1>FishOn</h1>
         <h2>Masuk Akun Anda</h2>
         
         <form action="/login" method="GET">

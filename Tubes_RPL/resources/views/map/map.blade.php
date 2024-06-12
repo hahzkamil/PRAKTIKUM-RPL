@@ -16,22 +16,22 @@
 
 <body>
 <div class="container mt-5">
-    <h2>Map</h2>
+    <h2>Lokasi Saat Ini</h2>
     <div id="map"></div>
 </div>
 
 <script type="text/javascript">
     function initMap() {
-        const myLatLng = { lat: 23.81663586829542, lng: 90.36618138671278 };
+        const myLatLng = { lat: -6.972757, lng: 107.632906 };
         const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 5,
+            zoom: 14,
             center: myLatLng,
         });
 
         new google.maps.Marker({
             position: myLatLng,
             map,
-            title: "Hello Mirpur!",
+            title: "Hello FishOner!",
         });
     }
 
