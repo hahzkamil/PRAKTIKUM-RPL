@@ -1,5 +1,7 @@
 <nav class="navbar nav-underline navbar-expand-lg navbar-black" style="background-color: #6AB4DD;">
-    <a class="navbar-brand" href="#">
+<a class="navbar-brand" href="#" style="font-weight: bold; font-size: 23px;">
+        <img src="{{ URL('img/fishon.jpeg') }}" alt="FishOn Logo" style="height: 50px; margin-right: 10px; margin-left: 20px;">
+        FishOn!
     </a>
     <div class="container justify-content-center">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -39,9 +41,7 @@
             </li>
         @else
             <li class="nav-item">
-                <a href="profile">
-                <img src='https://cdn-icons-png.flaticon.com/512/6522/6522516.png' style="width: 30px; height: 30px; margin-right: 10px;">
-                </a>
+            <a href="profile" class="btn btn-primary mx-3">Profile</a>
             </li>
         @endguest
     </ul>
