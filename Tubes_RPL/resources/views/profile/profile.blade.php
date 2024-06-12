@@ -50,7 +50,7 @@
               <p class="text-muted">081122334455</p>
             </div>
             <div class="edit-container">
-              <a href="edit_profile.html" class="btn btn-primary">Edit</a>
+              <a href="editprofile" class="btn btn-primary">Edit</a>
             </div>
           </div>
         </div>

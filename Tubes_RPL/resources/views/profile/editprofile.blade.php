@@ -34,7 +34,7 @@
                     <label class="form-label fw-semibold">No Telepon</label>
                     <input type="number" class="form-control border border-dark" value="">
                 </div>
-                <button type="submit" class="float-end btn text-white mt-5"
+                <button href='profile' class="float-end btn text-white mt-5"
                     style="background-color: #4d7fea">Simpan</button>
             </form>
         </center>
