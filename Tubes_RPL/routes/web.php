@@ -95,3 +95,10 @@ Route::get('/aboutus', function () {
     return view('tentang.aboutus');
 });
 
+Route::get('/listdonasi', function () {
+    return view('donasi.listdonasi');
+});
+
+Route::get('/tampilandonasi', function () {
+    return view('donasi.tampilandonasi');
+});
