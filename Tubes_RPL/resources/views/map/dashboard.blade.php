@@ -4,6 +4,10 @@
     @include('map.weather')
 @endsection
 
-@section('map_content') {{-- Unique section name --}}
+@section('map_content')
     @include('map.map')
+@endsection
+
+@section('donasi')
+    @include('map.donasi')
 @endsection
