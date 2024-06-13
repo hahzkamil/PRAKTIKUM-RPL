@@ -6,6 +6,8 @@ use App\Http\Controllers\EventController;
 use App\Http\Controllers\FaqController;
 use App\Http\Controllers\WeatherController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ArtikelControllerAdmin;
+use App\Http\Controllers\Artikelcontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,18 +27,26 @@ use App\Http\Controllers\AuthController;
 Route::get('/', function () {
     return view('map.dashboard');
 });
-Route::get('login', function () {
-    return view('landing.login');
-});
 Route::get('login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('login', [AuthController::class, 'login']);
 Route::post('logout', [AuthController::class, 'logout'])->name('logout');
 
+//artikel
 
+Route::get('/show-artikel', [Artikelcontroller::class, 'showArtikel']);
+Route::get('/show-artikel/{id}', [Artikelcontroller::class, 'detailArtikel']);
 
-Route::get('signup', function () {
-    return view('landing.signup');
+//artikel
+
+Route::get('/kebijakanprivasi', function () {
+    return view('kebijakanprivasi');
 });
+
+// Route untuk menampilkan form signup
+Route::get('/signup', [AuthController::class, 'showRegistrationForm'])->name('signup');
+
+// Route untuk memproses data form signup
+Route::post('/signup', [AuthController::class, 'register'])->name('register');
 
 
 Route::get('information', function () {
@@ -100,6 +110,18 @@ Route::get('/checkout', function () {
 
 Route::get('/aboutus', function () {
     return view('tentang.aboutus');
+});
+
+Route::get('/listdonasi', function () {
+    return view('donasi.listdonasi');
+});
+
+Route::get('/tampilandonasi', function () {
+    return view('donasi.tampilandonasi');
+});
+
+Route::get('/complaint-success', function () {
+    return view('tentang.complaint-success');
 });
 
 
