@@ -26,6 +26,7 @@
                                     Dengan misi untuk memudahkan transaksi jual beli ikan, kami menyediakan layanan yang cepat, aman, dan terpercaya.
                                 </p>
                                 <a href="{{ url('/') }}" class="btn btn-primary mt-3">Kembali ke Beranda</a>
+                                <a href="/faq" class="btn btn-primary mt-3">Lihat FAQ</a>
                             </div>
                         </div>
                         <hr>
