@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     @yield('cssfile')
+    @yield('head')
 </head>
 <body>
     @if (Auth::check())

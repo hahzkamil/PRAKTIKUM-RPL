@@ -17,7 +17,7 @@
                         <p class="card-text">Alamat: Sukabirus</p>
                         <p class="card-text">Kontak: 0822890312</p>
                         <p class="card-text">Deskripsi: Jualan ikan salmon es</p>
-                        <a href="sellerlist" class="btn btn-primary">Kembali</a>
+                        <a href="{{ url('/sellerlist') }}" class="btn btn-primary">Kembali</a>
                         <a href="https://wa.me/6285814493411" class="btn btn-success">Hubungi via WhatsApp</a>
                     </div>
                 </div>
