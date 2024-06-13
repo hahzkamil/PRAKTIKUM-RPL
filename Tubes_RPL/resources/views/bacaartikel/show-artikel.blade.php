@@ -14,7 +14,7 @@
         @foreach ($data_artikel as $artikel)
           <div class="col-md-3 mb-4">
               <div class="card p-3">
-                  <img src="{{ asset('storage/artikel/'. $artikel->photo) }}" class="card-img-top my-4" alt="Article Image" width="180" height="160">
+                  <img src="{{ $artikel->photo }}" class="card-img-top my-4" alt="Article Image" width="180" height="160">
                   <div class="card-body">
                       <h5 class="card-title">{{ $artikel -> judul }}</h5>
                       <p class="card-text">{!! Str::limit($artikel -> body, 100) !!}</p>
