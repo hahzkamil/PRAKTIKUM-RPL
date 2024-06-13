@@ -13,7 +13,7 @@
 
       <div class="row">
       <div style="display: flex; justify-content: center;">
-            <img src="{{ asset('storage/artikel/'. $artikel->photo) }}" class="my-4" alt="Article Image" style="width: 500px; height: 450px;">
+            <img src="{{ $artikel->photo }}" class="card-img-top my-4" alt="Article Image" style="width: 500px; height: 450px;">
         </div>
         <div class="card-body">
             <p class="card-text">{!! $artikel -> body !!}</p>
