@@ -13,4 +13,13 @@ class EventController extends Controller
         $events = Event::all();
         return view('event.event', compact('events'));
     }
+
+    public function showEvent($id)
+    {
+        $event = Event::find($id);
+        if (!$event) {
+            return redirect()->route('event.event')->with('error', 'Event not found.');
+        }
+            return view('event.detailevent', compact('event'));
+     }
 }

@@ -86,6 +86,7 @@ Route::get('/sellerlist/{id}', [SellerControllers::class, 'showSeller'])->where(
 // });
 
 Route::get('/events', [EventController::class, 'index'])->name('events.index');
+Route::get('/events/{id}', [EventController::class, 'showEvent'])->where('id', '[0-9]+')->name('event.detailevent');
 
 Route::get('/faq', [FaqController::class, 'index'])->name('faq.index');
 

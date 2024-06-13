@@ -7,7 +7,7 @@
         @foreach ($events as $event)
             <div class="col-md-4 mb-4">
                 <div class="card h-100 shadow-sm">
-                    {{-- <img src="{{ $event->image_url }}" class="card-img-top" alt="Gambar Kegiatan"> --}}
+                    <img src="{{ asset('img/event.png') }}" class="card-img-top" alt="Gambar Kegiatan">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">{{ $event->nama_kegiatan }}</h5>
                         <p class="card-text">{{ $event->deskripsi_kegiatan }}</p>
@@ -16,7 +16,7 @@
                             <li class="list-group-item"><strong>Lokasi:</strong> {{ $event->lokasi }}</li>
                         </ul>
                         <div class="card-footer mt-auto">
-                            <a href="{{ route('event.details', $event->id) }}" class="btn btn-primary w-100">Detail Kegiatan</a>
+                            <a href="{{ route('event.detailevent', ['id' => $event->id]) }}" class="btn btn-primary w-100">Detail Kegiatan</a>
                         </div>
                     </div>
                 </div>
