@@ -20,3 +20,11 @@
 .button:hover {
     background-color: #5a96c5; /* Change this color to the hover effect you want */
 }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
